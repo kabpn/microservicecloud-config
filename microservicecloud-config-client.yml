@@ -1,13 +1,13 @@
-server: 
+ï»¿server: 
   port: 8021
 spring:
     profiles: dev
     application: 
-        name: microservicecloud-config-client
+        name: microservicecloud-config-client 
 eureka: 
   client: 
     service-url: 
-      #µ¥»ú defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/       #ÉèÖÃÓëEureka Server½»»¥µÄµØÖ·²éÑ¯·şÎñºÍ×¢²á·şÎñ¶¼ĞèÒªÒÀÀµÕâ¸öµØÖ·£¨µ¥»ú£©¡£
+      #å•æœº defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/       #è®¾ç½®ä¸Eureka Serveräº¤äº’çš„åœ°å€æŸ¥è¯¢æœåŠ¡å’Œæ³¨å†ŒæœåŠ¡éƒ½éœ€è¦ä¾èµ–è¿™ä¸ªåœ°å€ï¼ˆå•æœºï¼‰ã€‚
       defaultZone: http://eureka7001.com:7001/eureka/
 ---
 server: 
@@ -19,7 +19,7 @@ spring:
 eureka: 
   client: 
     service-url: 
-      #µ¥»ú defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/       #ÉèÖÃÓëEureka Server½»»¥µÄµØÖ·²éÑ¯·şÎñºÍ×¢²á·şÎñ¶¼ĞèÒªÒÀÀµÕâ¸öµØÖ·£¨µ¥»ú£©¡£
+      #å•æœº defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/       #è®¾ç½®ä¸Eureka Serveräº¤äº’çš„åœ°å€æŸ¥è¯¢æœåŠ¡å’Œæ³¨å†ŒæœåŠ¡éƒ½éœ€è¦ä¾èµ–è¿™ä¸ªåœ°å€ï¼ˆå•æœºï¼‰ã€‚
       defaultZone: http://eureka7001.com:7001/eureka/
       
       
